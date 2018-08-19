@@ -6,15 +6,15 @@
 * Resources
 
 
-#The Application
+##The Application
 Udacity provided the <a href="https://github.com/udacity/mws-restaurant-stage-1">starter code</a> for this project.The App provides local restaurants information and reviews with offline-capability.
 
-#Installation
+##Installation
 Clone or download the project from Github
 Run server via terminal with "$ python -m http.server"
 Navigate to localhost (e.g. http://localhost:8000)
 
-#Resources
+##Resources
 
 <a href="https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker">Caching Files with Service Worker</a><br>
 <a href="https://developers.google.com/web/fundamentals/codelabs/offline/">Adding a Service Worker and Offline into your Web App by Paul Kinlan</a><br>
