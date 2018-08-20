@@ -1,3 +1,4 @@
+//Service worker variables
 var cacheName = 'cache';
 var cacheURLS= [
     '/',
@@ -22,6 +23,7 @@ var cacheURLS= [
     '/restaurant.html',
 ];
 
+//Installs the site assets
 self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('cacheName').then(function(cache) {
@@ -31,6 +33,7 @@ self.addEventListener('install', function(e) {
    );
 });
 
+//Get request and pull the request from the cache
 self.addEventListener('fetch', function(event) {
  console.log(event.request.url);
 
