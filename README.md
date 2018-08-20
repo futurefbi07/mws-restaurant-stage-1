@@ -11,8 +11,8 @@ Udacity provided the <a href="https://github.com/udacity/mws-restaurant-stage-1"
 
 ## Installation
 Clone or download the project from Github
-Run server via terminal with "$ python -m http.server"
-Navigate to localhost (e.g. http://localhost:8000)
+Run server via terminal with "$ python -m http.server 8000"
+Navigate to localhost (i.e. http://localhost:8000)
 
 ## Resources
 
